@@ -2,7 +2,7 @@
 
 ## Installation Instructions
 
-1. Download a copy of this repository into a folder on your computer. You can click the green `Code` dropdown button on [https://github.com/theyoostink/skeb-dark-mode](https://github.com/theyoostink/skeb-dark-mode) and select on `Download Zip`. The contents of that folder should have `darkmode.css` and `manifest.json` at minimum.
+1. Download a copy of this repository into a folder on your computer. You can click the green `Code` dropdown button on [https://github.com/theyoostink/skeb-dark-mode](https://github.com/theyoostink/skeb-dark-mode) and select `Download Zip`. The contents of that folder should have `darkmode.css` and `manifest.json` at minimum.
 2. Open your browser's `Manage Extensions` page. For example, Google Chrome's page is `chrome://extensions/` which you can enter in the Google Chrome address bar.
 3. Load the extension by clicking on the `Load unpacked` button on the top left.
 4. Select the folder from Step 1 that holds `darkmode.css` and `manifest.json`.
