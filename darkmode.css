@@ -1,0 +1,228 @@
+/* Developed by Yoostink */
+
+/* Top Level Tags */
+body {
+	color: white !important;
+}
+
+main {
+	background-color: #333;
+}
+
+footer {
+	background-color: #444 !important;
+}
+
+a {
+	color: #5eb9d4 !important;
+}
+
+a:hover, a:active {
+	color: #9ad3e4 !important;
+}
+
+strong {
+	color: white !important;
+}
+
+
+/* Tables */
+table {
+	background-color: #444 !important;
+	color: white !important;
+}
+
+.table td, .table th {
+	border: solid #aaa !important;
+	border-top-color: #aaa !important;
+    border-top-style: solid !important;
+    border-top-width: 0px !important;
+    border-right-color: #aaa !important;
+    border-right-style: solid !important;
+    border-right-width: 0px !important;
+    border-bottom-color: #aaa !important;
+    border-bottom-style: solid !important;
+    border-bottom-width: 1px !important;
+    border-left-color: #aaa !important;
+    border-left-style: solid !important;
+    border-left-width: 0px !important;
+    border-image-source: initial !important;
+    border-image-slice: initial !important;
+    border-image-width: initial !important;
+    border-image-outset: initial !important;
+    border-image-repeat: initial !important;
+}
+
+.table thead td, .table thead th {
+    border-width: 0 0 2px;
+    color: white !important
+}
+
+/* Navigation Bar at the Top */
+.navbar {
+	background-color: #444 !important;
+	color: black;
+}
+
+.navbar > div {
+	background-color: #444 !important;
+}
+
+.navbar-item {
+	color: #eee !important;
+}
+
+.navbar-item:hover {
+	background-color: #444 !important;
+}
+
+.navbar-link:hover, .navbar-link:active, .navbar-link:focus, .navbar-link:focus-within {
+	background-color: #444 !important;
+}
+
+.navbar-dropdown {
+	background-color: #444 !important;
+	color: white !important;
+}
+
+/* Logos and Icons */
+.logo > img.from-breakpoint {
+	filter: drop-shadow(1px 1px 0 white)
+        drop-shadow(-1px 1px 0 white)
+        drop-shadow(1px -1px 0 white)
+        drop-shadow(-1px -1px 0 white) !important;
+}
+
+.control.has-icons-left .icon, .control.has-icons-right .icon {
+	color: black !important;
+}
+
+.is-twitter > span, .is-facebook > span {
+	color: white !important;
+}
+
+/* Dropdown Menus */
+.dropdown-content {
+	background-color: #555 !important;
+}
+
+.dropdown-content:hover {
+	background-color: #555 !important;
+}
+
+.dropdown-item:hover {
+	background-color: #555 !important;
+}
+
+.dropdown-trigger > .button {
+	background-color: #444 !important;
+}
+
+.dropdown-trigger > .button > .icon {
+	color: white !important;
+}
+
+/* Titles and Labels */
+.title {
+	color: white !important;
+}
+
+.subtitle {
+	color: white !important;
+}
+
+.label {
+	color: white !important;
+}
+
+small.has-text-primary {
+	color: #63cfca !important;
+}
+
+.tabs ul {
+	border-bottom: 1px solid #aaa !important;
+}
+
+.tabs li.is-active a {
+	color: #9ad3e4 !important;
+	border-bottom-color: #9ad3e4 !important;
+}
+
+/* Divider Line */
+.is-divider {
+	border-color: #aaa !important;
+}
+
+/* Inputs */
+.input {
+	color: white !important;
+}
+
+.input[type="search"] {
+	color: black !important;
+	background-color: #ccc;
+}
+
+/* Various Containers */
+.card {
+	border: 2px solid #333 !important;
+	background-color: #667 !important;
+}
+
+.see-more__list:after {
+	background: linear-gradient(180deg,hsla(0,0%,100%,0),hsla(0,0%,100%,.15) 10%,hsla(0,0%,100%,.45) 90%,#444) !important;
+}
+
+.is-box.container {
+	background-color: #444 !important;
+}
+
+.is-box:not(.container) {
+	background-color: #444 !important;
+}
+
+.is-fluid {
+	background-color: #444 !important;	
+}
+
+.section[data-v-4aea4309] > .container {
+	background-color: #444 !important;
+}
+
+.panel {
+	border-radius: 6px;
+    box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 40%), 0 0 0 1px rgb(10 10 10 / 5%) !important;
+    font-size: 1rem;
+}
+
+.panel-block {
+	background-color: #444;
+	color: white !important;
+}
+
+.panel-block.is-hoverable:hover {
+	background-color: #555 !important;
+}
+
+.is-nsfw {
+    background-color: #504444 !important;
+}
+
+.is-nsfw.is-hoverable:hover {
+	background-color: #604444 !important;
+}
+
+.message.is-primary {
+	background-color: #37aeae !important;
+}
+
+.message.is-primary .message-body {
+    border-color: #28837f;
+    color: black !important;
+}
+
+/* Footer */
+.hero-foot {
+	background-color: #444 !important;
+	padding: 0 !important;
+}
