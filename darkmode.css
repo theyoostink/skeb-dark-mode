@@ -35,27 +35,27 @@ table {
 .table td, .table th {
 	border: solid #aaa !important;
 	border-top-color: #aaa !important;
-    border-top-style: solid !important;
-    border-top-width: 0px !important;
-    border-right-color: #aaa !important;
-    border-right-style: solid !important;
-    border-right-width: 0px !important;
-    border-bottom-color: #aaa !important;
-    border-bottom-style: solid !important;
-    border-bottom-width: 1px !important;
-    border-left-color: #aaa !important;
-    border-left-style: solid !important;
-    border-left-width: 0px !important;
-    border-image-source: initial !important;
-    border-image-slice: initial !important;
-    border-image-width: initial !important;
-    border-image-outset: initial !important;
-    border-image-repeat: initial !important;
+	border-top-style: solid !important;
+	border-top-width: 0px !important;
+	border-right-color: #aaa !important;
+	border-right-style: solid !important;
+	border-right-width: 0px !important;
+	border-bottom-color: #aaa !important;
+	border-bottom-style: solid !important;
+	border-bottom-width: 1px !important;
+	border-left-color: #aaa !important;
+	border-left-style: solid !important;
+	border-left-width: 0px !important;
+	border-image-source: initial !important;
+	border-image-slice: initial !important;
+	border-image-width: initial !important;
+	border-image-outset: initial !important;
+	border-image-repeat: initial !important;
 }
 
 .table thead td, .table thead th {
-    border-width: 0 0 2px;
-    color: white !important
+	border-width: 0 0 2px;
+	color: white !important
 }
 
 /* Navigation Bar at the Top */
@@ -88,9 +88,9 @@ table {
 /* Logos and Icons */
 .logo > img.from-breakpoint {
 	filter: drop-shadow(1px 1px 0 white)
-        drop-shadow(-1px 1px 0 white)
-        drop-shadow(1px -1px 0 white)
-        drop-shadow(-1px -1px 0 white) !important;
+		drop-shadow(-1px 1px 0 white)
+		drop-shadow(1px -1px 0 white)
+		drop-shadow(-1px -1px 0 white) !important;
 }
 
 .control.has-icons-left .icon, .control.has-icons-right .icon {
@@ -191,8 +191,8 @@ small.has-text-primary {
 
 .panel {
 	border-radius: 6px;
-    box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 40%), 0 0 0 1px rgb(10 10 10 / 5%) !important;
-    font-size: 1rem;
+	box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 40%), 0 0 0 1px rgb(10 10 10 / 5%) !important;
+	font-size: 1rem;
 }
 
 .panel-block {
@@ -200,12 +200,20 @@ small.has-text-primary {
 	color: white !important;
 }
 
+.panel-block:hover {
+	background-color: #555 !important;
+}
+
+.panel-block.is-active {
+	background-color: #555 !important;
+}
+
 .panel-block.is-hoverable:hover {
 	background-color: #555 !important;
 }
 
 .is-nsfw {
-    background-color: #504444 !important;
+	background-color: #504444 !important;
 }
 
 .is-nsfw.is-hoverable:hover {
@@ -217,8 +225,8 @@ small.has-text-primary {
 }
 
 .message.is-primary .message-body {
-    border-color: #28837f;
-    color: black !important;
+	border-color: #28837f;
+	color: black !important;
 }
 
 /* Footer */
