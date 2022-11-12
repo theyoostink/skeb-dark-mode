@@ -6,11 +6,11 @@ body {
 }
 
 main {
-	background-color: #333;
+	background-color: #0d1117;
 }
 
 footer {
-	background-color: #444 !important;
+	background-color: #282828 !important;
 }
 
 a {
@@ -28,7 +28,7 @@ strong {
 
 /* Tables */
 table {
-	background-color: #444 !important;
+	background-color: #282828 !important;
 	color: white !important;
 }
 
@@ -60,12 +60,12 @@ table {
 
 /* Navigation Bar at the Top */
 .navbar {
-	background-color: #444 !important;
+	background-color: #282828 !important;
 	color: black;
 }
 
 .navbar > div {
-	background-color: #444 !important;
+	background-color: #282828 !important;
 }
 
 .navbar-item {
@@ -73,15 +73,24 @@ table {
 }
 
 .navbar-item:hover {
-	background-color: #444 !important;
+	background-color: #282828 !important;
+}
+
+.navbar-item.is-active {
+	background-color: #383838 !important;	
+}
+
+a.navbar-item:hover {
+	background-color: #383838 !important;
 }
 
 .navbar-link:hover, .navbar-link:active, .navbar-link:focus, .navbar-link:focus-within {
-	background-color: #444 !important;
+	background-color: #282828 !important;
 }
 
 .navbar-dropdown {
-	background-color: #444 !important;
+	box-shadow: 0 8px 8px rgb(100 100 100 / 100%) !important;
+	background-color: #282828 !important;
 	color: white !important;
 }
 
@@ -103,19 +112,20 @@ table {
 
 /* Dropdown Menus */
 .dropdown-content {
-	background-color: #555 !important;
+	background-color: #383838 !important;
 }
 
 .dropdown-content:hover {
-	background-color: #555 !important;
+	background-color: #383838 !important;
 }
 
 .dropdown-item:hover {
-	background-color: #555 !important;
+	background-color: #383838 !important;
 }
 
 .dropdown-trigger > .button {
-	background-color: #444 !important;
+	color: white !important;
+	background-color: #282828 !important;
 }
 
 .dropdown-trigger > .button > .icon {
@@ -153,6 +163,10 @@ small.has-text-primary {
 	border-color: #aaa !important;
 }
 
+.navbar-divider {
+	background-color: #f5f5f5 !important;
+}
+
 /* Inputs */
 .input {
 	color: white !important;
@@ -163,61 +177,69 @@ small.has-text-primary {
 	background-color: #ccc;
 }
 
+.textarea {
+	color: white !important;
+}
+
+.checkbox {
+	color: white !important;
+}
+
 /* Various Containers */
 .card {
-	border: 2px solid #333 !important;
-	background-color: #667 !important;
+	border: 2px solid #222 !important;
+	background-color: #2f2f37 !important;
 }
 
 .see-more__list:after {
-	background: linear-gradient(180deg,hsla(0,0%,100%,0),hsla(0,0%,100%,.15) 10%,hsla(0,0%,100%,.45) 90%,#444) !important;
+	background: linear-gradient(180deg,hsla(0,0%,100%,0),hsla(0,0%,100%,.15) 10%,hsla(0,0%,100%,.45) 90%,#282828) !important;
 }
 
 .is-box.container {
-	background-color: #444 !important;
+	background-color: #282828 !important;
 }
 
 .is-box:not(.container) {
-	background-color: #444 !important;
+	background-color: #282828 !important;
 }
 
 .is-fluid {
-	background-color: #444 !important;	
-}
-
-.section[data-v-4aea4309] > .container {
-	background-color: #444 !important;
+	background-color: #282828 !important;	
 }
 
 .panel {
 	border-radius: 6px;
-	box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 40%), 0 0 0 1px rgb(10 10 10 / 5%) !important;
+	box-shadow: 0 0.5em 1em -0.125em rgb(100 100 100 / 100%), 0 0 0 1px rgb(10 10 10 / 10%) !important;
 	font-size: 1rem;
 }
 
 .panel-block {
-	background-color: #444;
+	background-color: #282828;
 	color: white !important;
 }
 
-.panel-block:hover {
-	background-color: #555 !important;
+.panel-block:not(.is-grey):hover {
+	background-color: #383838 !important;
 }
 
 .panel-block.is-active {
-	background-color: #555 !important;
+	background-color: #383838 !important;
 }
 
 .panel-block.is-hoverable:hover {
-	background-color: #555 !important;
+	background-color: #383838 !important;
+}
+
+.panel-block:not(:last-child), .panel-tabs:not(:last-child) {
+	border-bottom: 1px solid #aaa !important;
 }
 
 .is-nsfw {
-	background-color: #504444 !important;
+	background-color: #3e3232 !important;
 }
 
 .is-nsfw.is-hoverable:hover {
-	background-color: #604444 !important;
+	background-color: #473939 !important;
 }
 
 .message.is-primary {
@@ -231,6 +253,6 @@ small.has-text-primary {
 
 /* Footer */
 .hero-foot {
-	background-color: #444 !important;
+	background-color: #282828 !important;
 	padding: 0 !important;
 }
