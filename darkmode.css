@@ -251,6 +251,20 @@ small.has-text-primary {
 	color: black !important;
 }
 
+/* Modal */
+.modal-card-head {
+	background-color: #282828 !important;
+}
+
+.modal-card-title {
+	color: white !important;
+}
+
+.modal-card-body {
+	background-color: #282828 !important;
+	color: white !important;
+}
+
 /* Footer */
 .hero-foot {
 	background-color: #282828 !important;
