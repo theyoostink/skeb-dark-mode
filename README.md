@@ -21,3 +21,4 @@ If you encounter a bug or would like to request changes, please contact Yoostink
 
 - v1.0 [2022-11-11]: The first version
 - v1.1 [2022-11-11]: Darker colors and bug fixes
+- v1.2 [2022-12-01]: Support for modals
