@@ -24,3 +24,4 @@ There are currently no plans to publish this extension to the Google Web Store.
 - v1.0 [2022-11-11]: The first version
 - v1.1 [2022-11-11]: Darker colors and bug fixes
 - v1.2 [2022-12-01]: Support for modals
+- v1.3 [2023-01-27]: Recoloring the new question box on the request form
