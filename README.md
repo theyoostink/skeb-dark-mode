@@ -13,7 +13,7 @@
 
 ## About the Extension
 
-This extension only adds a Cascading Style Sheet (CSS) to Skeb pages. The CSS file only recolors elements on the page to create the dark mode theme.
+This extension only adds a Cascading Style Sheet (CSS) to Skeb pages. The CSS file only recolors elements on the page to create the dark mode theme. It does not scrape data from the Skeb page and only makes cosmetic changes.
 
 If you encounter a bug or would like to request changes, please contact Yoostink.
 
