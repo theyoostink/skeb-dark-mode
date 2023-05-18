@@ -269,6 +269,10 @@ small.has-text-primary {
 	color: white !important;
 }
 
+.overlay .overlay__message {
+	background-color: #282828 !important;
+}
+
 /* Footer */
 .hero-foot {
 	background-color: #282828 !important;
