@@ -25,3 +25,4 @@ There are currently no plans to publish this extension to the Google Web Store.
 - v1.1 [2022-11-11]: Darker colors and bug fixes
 - v1.2 [2022-12-01]: Support for modals
 - v1.3 [2023-01-27]: Recoloring the new question box on the request form
+- v1.4 [2023-05-18]: Support for 3D secure payment authentication modal
