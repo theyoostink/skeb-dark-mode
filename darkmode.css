@@ -1,16 +1,24 @@
 /* Developed by Yoostink */
 
+/* Variables */
+:root {
+	--dark-background: #0d1117;
+	--grey-panels: #282828;
+	--grey-hover: #383838;
+	--grey-border: #aaa;
+}
+
 /* Top Level Tags */
 body {
 	color: white !important;
 }
 
 main {
-	background-color: #0d1117;
+	background-color: var(--dark-background);
 }
 
 footer {
-	background-color: #282828 !important;
+	background-color: var(--grey-panels) !important;
 }
 
 a {
@@ -28,22 +36,22 @@ strong {
 
 /* Tables */
 table {
-	background-color: #282828 !important;
+	background-color: var(--grey-panels) !important;
 	color: white !important;
 }
 
 .table td, .table th {
-	border: solid #aaa !important;
-	border-top-color: #aaa !important;
+	border: solid var(--grey-border) !important;
+	border-top-color: var(--grey-border) !important;
 	border-top-style: solid !important;
 	border-top-width: 0px !important;
-	border-right-color: #aaa !important;
+	border-right-color: var(--grey-border) !important;
 	border-right-style: solid !important;
 	border-right-width: 0px !important;
-	border-bottom-color: #aaa !important;
+	border-bottom-color: var(--grey-border) !important;
 	border-bottom-style: solid !important;
 	border-bottom-width: 1px !important;
-	border-left-color: #aaa !important;
+	border-left-color: var(--grey-border) !important;
 	border-left-style: solid !important;
 	border-left-width: 0px !important;
 	border-image-source: initial !important;
@@ -60,12 +68,12 @@ table {
 
 /* Navigation Bar at the Top */
 .navbar {
-	background-color: #282828 !important;
+	background-color: var(--grey-panels) !important;
 	color: black;
 }
 
 .navbar > div {
-	background-color: #282828 !important;
+	background-color: var(--grey-panels) !important;
 }
 
 .navbar-item {
@@ -73,24 +81,24 @@ table {
 }
 
 .navbar-item:hover {
-	background-color: #282828 !important;
+	background-color: var(--grey-panels) !important;
 }
 
 .navbar-item.is-active {
-	background-color: #383838 !important;	
+	background-color: var(--grey-hover) !important;	
 }
 
 a.navbar-item:hover {
-	background-color: #383838 !important;
+	background-color: var(--grey-hover) !important;
 }
 
 .navbar-link:hover, .navbar-link:active, .navbar-link:focus, .navbar-link:focus-within {
-	background-color: #282828 !important;
+	background-color: var(--grey-panels) !important;
 }
 
 .navbar-dropdown {
 	box-shadow: 0 8px 8px rgb(100 100 100 / 100%) !important;
-	background-color: #282828 !important;
+	background-color: var(--grey-panels) !important;
 	color: white !important;
 }
 
@@ -112,20 +120,20 @@ a.navbar-item:hover {
 
 /* Dropdown Menus */
 .dropdown-content {
-	background-color: #383838 !important;
+	background-color: var(--grey-hover) !important;
 }
 
 .dropdown-content:hover {
-	background-color: #383838 !important;
+	background-color: var(--grey-hover) !important;
 }
 
 .dropdown-item:hover {
-	background-color: #383838 !important;
+	background-color: var(--grey-hover) !important;
 }
 
 .dropdown-trigger > .button {
 	color: white !important;
-	background-color: #282828 !important;
+	background-color: var(--grey-panels) !important;
 }
 
 .dropdown-trigger > .button > .icon {
@@ -150,7 +158,7 @@ small.has-text-primary {
 }
 
 .tabs ul {
-	border-bottom: 1px solid #aaa !important;
+	border-bottom: 1px solid var(--grey-border) !important;
 }
 
 .tabs li.is-active a {
@@ -160,7 +168,7 @@ small.has-text-primary {
 
 /* Divider Line */
 .is-divider {
-	border-color: #aaa !important;
+	border-color: var(--grey-border) !important;
 }
 
 .navbar-divider {
@@ -192,19 +200,19 @@ small.has-text-primary {
 }
 
 .see-more__list:after {
-	background: linear-gradient(180deg,hsla(0,0%,100%,0),hsla(0,0%,100%,.15) 10%,hsla(0,0%,100%,.45) 90%,#282828) !important;
+	background: linear-gradient(180deg,hsla(0,0%,100%,0),hsla(0,0%,100%,.15) 10%,hsla(0,0%,100%,.45) 90%,var(--grey-panels)) !important;
 }
 
 .is-box.container {
-	background-color: #282828 !important;
+	background-color: var(--grey-panels) !important;
 }
 
 .is-box:not(.container) {
-	background-color: #282828 !important;
+	background-color: var(--grey-panels) !important;
 }
 
 .is-fluid {
-	background-color: #282828 !important;	
+	background-color: var(--grey-panels) !important;	
 }
 
 .panel {
@@ -214,24 +222,24 @@ small.has-text-primary {
 }
 
 .panel-block {
-	background-color: #282828;
+	background-color: var(--grey-panels);
 	color: white !important;
 }
 
 .panel-block:not(.is-grey):hover {
-	background-color: #383838 !important;
+	background-color: var(--grey-hover) !important;
 }
 
 .panel-block.is-active {
-	background-color: #383838 !important;
+	background-color: var(--grey-hover) !important;
 }
 
 .panel-block.is-hoverable:hover {
-	background-color: #383838 !important;
+	background-color: var(--grey-hover) !important;
 }
 
 .panel-block:not(:last-child), .panel-tabs:not(:last-child) {
-	border-bottom: 1px solid #aaa !important;
+	border-bottom: 1px solid var(--grey-border) !important;
 }
 
 .is-nsfw {
@@ -252,12 +260,12 @@ small.has-text-primary {
 }
 
 .question-box.has-background-white-ter {
-	background-color: #383838 !important;
+	background-color: var(--grey-hover) !important;
 }
 
 /* Modal */
 .modal-card-head {
-	background-color: #282828 !important;
+	background-color: var(--grey-panels) !important;
 }
 
 .modal-card-title {
@@ -265,16 +273,36 @@ small.has-text-primary {
 }
 
 .modal-card-body {
-	background-color: #282828 !important;
+	background-color: var(--grey-panels) !important;
 	color: white !important;
 }
 
 .overlay .overlay__message {
-	background-color: #282828 !important;
+	background-color: var(--grey-panels) !important;
+}
+
+/* Report */
+.main[data-v-407d3044] {
+	background-color: var(--dark-background) !important;
+}
+
+.main .body .details-item[data-v-407d3044] {
+	background-color: var(--grey-panels) !important;
+	color: white !important;
+}
+
+.main .body .total[data-v-407d3044] {
+	background-color: var(--grey-panels) !important;
+	color: white !important;
+}
+
+.main .body .entire[data-v-407d3044] {
+	background-color: var(--grey-panels) !important;
+	color: white !important;
 }
 
 /* Footer */
 .hero-foot {
-	background-color: #282828 !important;
+	background-color: var(--grey-panels) !important;
 	padding: 0 !important;
 }
