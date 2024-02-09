@@ -301,6 +301,14 @@ small.has-text-primary {
 	color: white !important;
 }
 
+.button.is-success.is-light[data-v-4538188f] {
+	background-color: #48c78e !important;
+}
+
+.button.is-success.is-light[data-v-4538188f]:hover {
+	background-color: #3eb07d !important;
+}
+
 /* Footer */
 .hero-foot {
 	background-color: var(--grey-panels) !important;
