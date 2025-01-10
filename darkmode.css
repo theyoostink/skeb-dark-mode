@@ -263,6 +263,10 @@ small.has-text-primary {
 	background-color: var(--grey-hover) !important;
 }
 
+.notification {
+	background-color: var(--grey-hover) !important;
+}
+
 /* Modal */
 .modal-card-head {
 	background-color: var(--grey-panels) !important;
@@ -282,31 +286,16 @@ small.has-text-primary {
 }
 
 /* Report */
-.main[data-v-407d3044] {
+nav.nav.has-text-weight-bold {
 	background-color: var(--dark-background) !important;
 }
 
-.main .body .details-item[data-v-407d3044] {
+.main.tier-4, .main.tier-1 {
+	background-color: var(--dark-background) !important;
+}
+
+.details-item.has-text-weight-bold, .total, .entire {
 	background-color: var(--grey-panels) !important;
-	color: white !important;
-}
-
-.main .body .total[data-v-407d3044] {
-	background-color: var(--grey-panels) !important;
-	color: white !important;
-}
-
-.main .body .entire[data-v-407d3044] {
-	background-color: var(--grey-panels) !important;
-	color: white !important;
-}
-
-.button.is-success.is-light[data-v-4538188f] {
-	background-color: #48c78e !important;
-}
-
-.button.is-success.is-light[data-v-4538188f]:hover {
-	background-color: #3eb07d !important;
 }
 
 /* Footer */

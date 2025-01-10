@@ -27,3 +27,4 @@ There are currently no plans to publish this extension to the Google Web Store.
 - v1.3 [2023-01-27]: Recoloring the new question box on the request form
 - v1.4 [2023-05-18]: Support for 3D secure payment authentication modal
 - v1.5 [2024-02-03]: Support for reports and switched to variables
+- v1.6 [2025-01-09]: Support for End of year report styling and excluding new guidelines page for now
